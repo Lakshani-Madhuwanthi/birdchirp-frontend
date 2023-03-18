@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Dancing+Script&family=MuseoModerno:wght@200&display=swap');
+
+.App {
+  text-align: center;
+  background-image: url(assets/background.jpg) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.header-text {
+  position: absolute;
+  top: 2%; 
+  left: 3%;
+}
+
+.header-text h1 {
+  font-family: 'MuseoModerno', cursive;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+
