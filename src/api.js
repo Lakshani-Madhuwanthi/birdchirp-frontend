@@ -8,7 +8,7 @@ export const predict = (audioFile) => {
        redirect: 'follow'
      };
    
-     return fetch("http://127.0.0.1:5000/predict", requestOptions)
+     return fetch("http://167.172.160.99:5000/predict", requestOptions)
        .then(response => response.text())
        .then(result => {
          console.log(result);
