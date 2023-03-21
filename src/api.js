@@ -14,6 +14,9 @@ export const predict = (audioFile) => {
          console.log(result);
          return result;
        })
-       .catch(error => console.log('error', error));
+       .catch(error => {
+        console.log('error', error)
+        return "Error - " + error
+      });
 };
 export default predict;
